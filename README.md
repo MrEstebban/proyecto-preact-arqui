@@ -1,15 +1,39 @@
-# `create-preact`
+# Proyecto Preact Arquitectura
 
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
+Este proyecto utiliza Docker para facilitar su ejecución y despliegue.
 
-<h3 align="center">Get started using Preact and Vite!</h3>
+## Requisitos previos
 
-## Getting Started
+1. **Docker**: Asegúrate de tener Docker instalado en tu sistema.
+2. **Git**: Recomendado para clonar el respositorio en tu máquina.
 
--   `npm run dev` - Starts a dev server at http://localhost:5173/
 
--   `npm run build` - Builds for production, emitting to `dist/`. Prerenders app to static HTML
+## Instalación
 
--   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
+### 1. Clonar el repositorio
+
+Primero, clona el repositorio en tu máquina local:
+
+```sh
+git clone https://github.com/tu-usuario/proyecto-preact-arqui.git
+cd proyecto-preact-arqui
+```
+
+### Construir la imagen Docker
+Primero, asegúrate de estar en el directorio donde se encuentra tu `Dockerfile`. Luego, ejecuta el siguiente comando para construir la imagen Docker:
+
+```sh
+docker build -t proyecto-preact-arqui .
+```
+
+### 3. Ejecutar el Contenedor Docker
+
+Una vez que la imagen Docker se haya construido correctamente, puedes ejecutar el contenedor con el siguiente comando:
+
+```sh
+docker run -p 5173:5173 proyecto-preact-arqui
+```
+
+Esto iniciará el servidor web y podrás acceder a la aplicación en http://`localhost:5173`
+
+¡Y eso es todo! Ahora deberías tener tu proyecto corriendo en un contenedor Docker.
