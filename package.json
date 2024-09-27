@@ -7,6 +7,8 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@apollo/client": "^3.11.8",
+		"graphql": "^16.9.0",
 		"preact": "^10.22.1",
 		"preact-iso": "^2.6.3",
 		"preact-render-to-string": "^6.5.11"

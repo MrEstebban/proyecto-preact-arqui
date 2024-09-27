@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { useState } from 'preact/hooks';
+import DataComponent from '../DataComponent';
 
 const MateriasForm = () => {
   const [subjects, setSubjects] = useState([]);
@@ -49,6 +50,7 @@ const MateriasForm = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>Gestión de Materias y Notas</h1>
+      <DataComponent />
 
       <div style={styles.form}>
         <input 
