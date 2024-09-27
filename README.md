@@ -4,8 +4,10 @@ Este proyecto utiliza Docker para facilitar su ejecución y despliegue.
 
 ## Requisitos previos
 
-1. **Docker**: Asegúrate de tener Docker instalado en tu sistema.
-2. **Git**: Recomendado para clonar el respositorio en tu máquina.
+1. Docker: Asegúrate de tener Docker instalado en tu sistema.
+2. Git: Recomendado para clonar el respositorio en tu máquina.
+   
+3. **Asegúrate de correr primero el programa que está en el repositorio [proyecto-django-graphql-hexagonal](https://github.com/MrEstebban/proyecto-django-graphql-hexagonal). Las instrucciones para ejecutar ese programa están en su README correspondiente.**
 
 
 ## Instalación
